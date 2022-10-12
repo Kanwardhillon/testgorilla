@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Footer from './components/Footer';
+import Header from './components/Header';
+import QuestionContainer from './components/QuestionContainer';
+import {data} from './data/data'
 
 function App() {
+
+const [data, setData] = useState(data)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <QuestionContainer />
+      <Footer />
     </div>
   );
 }
