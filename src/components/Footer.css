@@ -1,0 +1,10 @@
+.footer{
+    border-top: 1px solid lightgray;
+}
+
+.footer_icon{
+    background-color: '#6CA798' !important;
+    font-size:"35px";
+    border-radius: '100%';
+    padding: '7px'
+}

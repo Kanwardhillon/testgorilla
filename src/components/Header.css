@@ -1,0 +1,17 @@
+.header{
+    display:flex !important;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 15px 10%;
+    background-color: white;
+}
+
+.header_button{
+    border: none;
+    border-radius: 5px;
+    padding: 7px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #6CA798;
+}
