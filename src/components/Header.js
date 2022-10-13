@@ -1,8 +1,10 @@
 import React from 'react'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Header.css'
+import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 
 const Header = () => {
+
     return (
         <header className='header'>
             <div className='header_info'>Test 1</div>

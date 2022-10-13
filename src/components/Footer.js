@@ -5,7 +5,9 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      <ChatBubbleOutlineOutlinedIcon  className='footer_icon'/>
+      <div className='footer_icon'>
+      <ChatBubbleOutlineOutlinedIcon  style={{backgroundColor: '#6CA798', fontSize:"35px", borderRadius: '100%',padding: '7px'}}/>
+      </div>
     </div>
   )
 }
